@@ -1,0 +1,38 @@
+export const seedTasks = [
+    {
+        id: '1',
+        title: 'Finalize landing page copy',
+        description: 'Review the final copy and prepare it for the launch handoff.',
+        project: 'Website',
+        priority: 'High',
+        status: 'in-progress',
+        dueDate: '2026-11-20',
+    },
+    {
+        id: '2',
+        title: 'Prepare sprint planning board',
+        description: 'Organize backlog items and estimate the next sprint.',
+        project: 'Product',
+        priority: 'Medium',
+        status: 'todo',
+        dueDate: '2026-11-22',
+    },
+    {
+        id: '3',
+        title: 'Review mobile wireframes',
+        description: 'Leave feedback on the latest onboarding concepts.',
+        project: 'Design',
+        priority: 'Low',
+        status: 'completed',
+        dueDate: '2026-11-18',
+    },
+    {
+        id: '4',
+        title: 'Schedule customer interviews',
+        description: 'Reach out to five users and confirm interview slots.',
+        project: 'Research',
+        priority: 'Medium',
+        status: 'todo',
+        dueDate: '2026-11-25',
+    },
+]
